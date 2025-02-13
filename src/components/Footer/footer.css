@@ -1,0 +1,83 @@
+/* Footer Outer Container */
+.footer_outer_container {
+  background-color: #111;
+  color: #757575;
+  padding: 50px 0;
+  border-top: 8px solid #222;
+}
+
+/* Footer Inner Container */
+.footer_inner_container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Footer Icons */
+.footer_footer_icons {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.footer_footer_icons svg {
+  font-size: 2rem;
+  color: #757575;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.footer_footer_icons svg:hover {
+  color: #e50914; /* Netflix red for hover effect */
+}
+
+/* Footer Data (Links) */
+.footer_data {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.footer_data ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex: 1 1 200px; /* Flexible columns */
+}
+
+.footer_data ul li {
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.footer_data ul li:hover {
+  color: #e50914; /* Netflix red for hover effect */
+}
+
+/* Service Code */
+.service_code {
+  margin-bottom: 20px;
+}
+
+.service_code p {
+  font-size: 0.9rem;
+  border: 1px solid #757575;
+  padding: 5px 10px;
+  display: inline-block;
+  cursor: pointer;
+  transition: border-color 0.3s ease, color 0.3s ease;
+}
+
+.service_code p:hover {
+  border-color: #e50914;
+  color: #e50914;
+}
+
+/* Copyright */
+.copy_write {
+  font-size: 0.8rem;
+  color: #757575;
+}
