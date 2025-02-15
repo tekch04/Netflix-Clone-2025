@@ -1,7 +1,7 @@
 /* Header Outer Container */
 .header_outer_container {
   display: flex;
-  background-color: gray; /* Dark background for the header */
+  background-color: rgb(20, 20, 20), /* Dark background for the header */
   padding: 20px 5px; /* Padding around the header */
   position: sticky; /* Fixed position to keep it at the top */
   width: 100%; /* Full width */
