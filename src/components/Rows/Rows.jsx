@@ -48,9 +48,10 @@ function Rows({ fetchUrl, title,isLargeRow}) {
     <>
       <div className="row">
         <h1>{title}</h1>
-        <div className="Row__Posters">
+        <div className="row__posters">
           {movies?.map((movie, index) => (
             <img
+              onError={(e) => (e.target.style.display = "none")}
               onClick={
                 () => handleClick(movie) // this will handle the movie
               }

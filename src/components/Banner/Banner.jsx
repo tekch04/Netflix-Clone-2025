@@ -21,6 +21,9 @@ function Banner() {
     })();
   }, []); //the array meanes dependency, it change the thumbnail when click it
   console.log(movie);
+  function truncate(str, n) {
+    return str?.length > n ? str.substr(0, n - 1) + "..." : str;
+  }
 
   return (
     <div
@@ -44,7 +47,7 @@ function Banner() {
         <button className="banner_button play">Play</button>
         <button className="banner_button">My List</button>
       </div>
-      <h1 className="banner_description"></h1>
+      <h1 className="banner_description"> {truncate(movie?.overview, 150)}</h1>
 
       <div className="banner_fadeBottom"></div>
     </div>

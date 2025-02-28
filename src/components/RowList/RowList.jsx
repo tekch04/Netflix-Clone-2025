@@ -11,7 +11,7 @@ function RowList() {
     isLargeRow= {true}
     />
       <Rows title="Trending Now" fetchUrl={requests.fetchTrending} />
-      <Rows title="Top Rated" fetchUrl={requests.fetchTopRated} />
+      <Rows title="Top Rated" fetchUrl={requests.fetchTopRatedMovies} />
       <Rows title="Action Movies" fetchUrl={requests.fetchActionMovies} />
       <Rows title="Comedy Movies" fetchUrl={requests.fetchComedyMovies} />
       <Rows title="Horror Movies" fetchUrl={requests.fetchHorrorMovies} />
